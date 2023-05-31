@@ -1,0 +1,15 @@
+/* .directory{
+    background-color: aliceblue;
+} */
+.directory_container{
+    /* background-color: rgb(48, 58, 66); */
+    width: 100%;
+    height: 100%;
+    padding: 1rem 3rem;    
+}
+.directory_content{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    margin: 0 auto;
+}
