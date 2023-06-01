@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:ital,wght@1,500&display=swap');
 :root{
-    /* Color */
-    /* --color-base: #065AD8;
-    --color-base-negro: #000;
-    --color-secondary-1: #1a6a8a;
-    --color-secondary-2: #2c8bb0;
-    --color-secondary-3: #439dc6;
-    --color-secondary-4: #6cb5d9;
-    --color-error:#DC0000;
-    --blanco:#fff;
-    --color-white: #fff;
-    --validation-color:RGB(153, 255, 153);
-    --backgroundprimario: #11101d;
-    --backgroundsecundario:#0B4F6C; */
-
     --base-color: #161819;
     --text-color: #FFFFFF;
     --secunday-color: #1F2125;
@@ -28,6 +14,14 @@
     --hover-color:#926FED;
     --validation-color:RGB(153, 255, 153);
     --color-error:#DC0000;
+    --color-icon-1: #99e5db;
+    --color-icon-sub: #009984;
+    --color-icon-2: #ffa966;
+    --color-icon-2sub: #ff6f00;
+    --color-icon-3: #ffe066;
+    --color-icon-3sub: #cca300;
+    --color-icon-4: #ff829a;
+    --color-icon-4sub: #ff4c6f;
     /* Fonts */
     --main-title-size: 42px;
     --subtitles-size: 28px;
@@ -35,14 +29,17 @@
     --links-size: 18px;
     --section-headers-size: 36px;
     --sub-headers-size: 18px;
+    --size-icons-cards: 24px;
 
     --shadow-cards: 0 24px 24px -16px rgba(0, 0, 0, 0.6);
+    --shadow-cards-small: 0 20px 20px -14px rgba(0, 0, 0, 0.6);
     --shadow-btn: 2px 2px 4px rgba(0, 0, 0, 0.4);
     --shadow-btn-hover: 2px 2px 8px rgba(0, 0, 0, 0.6);
     --shadow-small: 1px 1px 2px rgba(0, 0, 0, 0.4);
     --shadow-inputs: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-
+    /* font family */
+    --font-number-card: 'Lato', sans-serif;
 
 }
 html {
