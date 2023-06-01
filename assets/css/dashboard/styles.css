@@ -19,7 +19,7 @@ body{
     z-index: 4;
 }
 .sidebar.active{
-    width:25%;/*Cuando el boton se activa es el ancho del sidebar*/
+    width:35rem;/*Cuando el boton se activa es el ancho del sidebar*/
 }
 
 .sidebar .logo_content .logo{

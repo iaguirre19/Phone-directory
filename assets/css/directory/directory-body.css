@@ -1,9 +1,9 @@
 .directory_content-body{
     display: grid;
-    grid-template-columns: 1.2fr 2fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: .5fr 2fr;
     padding: 2rem 0rem;
-    gap: 5rem;
+    gap: 2.5rem;
 
 }
 .container_cards-data{
@@ -88,19 +88,21 @@
     font-size: 1.5rem;
     margin-top: 1.4rem;
     opacity: .6;
-    /* align-self: flex-end; */
 }
 .container_card-directory{
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: var(--base-color);
     border-radius: 2rem;
     box-shadow: var(--shadow-cards-small);
     display: grid;
     grid-template-rows: 4rem 1fr;
-    overflow: hidden;
+    overflow: auto;
+    /* scrollbar-width: thin; 
+    scrollbar-color: #888 ; */
+    
 
 }
 .card_header{
@@ -123,10 +125,14 @@
 }
 .card_content-directory{
     display: grid;
-    grid-auto-rows: minmax(0, 70px);
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 55rem;
+    grid-auto-rows: minmax(0, 60px);
     padding-left: .5rem;
     padding-right: 1rem;
     align-items: center;
+    /* overflow: scroll; */
 }
 .card_profile{
     display: grid;
